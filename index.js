@@ -8,4 +8,8 @@ app.get('/', (req, res) => {
     res.status(200).send({msg: 'LocalHost:3000 Is Active.'});
 });
 
+app.get('/active', (req, res) => {
+    res.status(200).send({msg: 'LocalHost:3000 Is Active.'});
+});
+
 app.listen(port, () => console.log(`Listening On Port: ${port}`));
