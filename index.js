@@ -5,7 +5,7 @@ const port = process.env.PORT;
 console.log(port);
 
 app.get('/', (req, res) => {
-    res.status(200).send({msg: 'LocalHost:3000 Is Active.'});
+    res.status(200).send({msg: 'success.'});
 });
 
 app.get('/active', (req, res) => {
