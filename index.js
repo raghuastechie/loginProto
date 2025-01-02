@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
     res.status(200).send({msg: 'success.'});
 });
 
+app.get('/test', (req, res) => {
+    res.status(200).send({msg: 'testing..'});
+});
+
 app.get('/active', (req, res) => {
     res.status(200).send({msg: 'LocalHost:3000 Is Active.'});
 });
